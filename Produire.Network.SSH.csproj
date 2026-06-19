@@ -71,8 +71,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>if not $(ConfigurationName)==Release goto :end
-"$(ProjectDir)..\incversion.exe" "$(ProjectDir)\"
-:end</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
